@@ -10,4 +10,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ElevatorCaseFlow.Application\ElevatorCaseFlow.Application.csproj" />
+    <ProjectReference Include="..\ElevatorCaseFlow.Infrastructure\ElevatorCaseFlow.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

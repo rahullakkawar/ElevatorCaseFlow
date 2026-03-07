@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ElevatorCaseFlow.Domain\ElevatorCaseFlow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
