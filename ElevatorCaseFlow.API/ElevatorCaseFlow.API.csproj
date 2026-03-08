@@ -11,6 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ElevatorCaseFlow.Application\ElevatorCaseFlow.Application.csproj" />
     <ProjectReference Include="..\ElevatorCaseFlow.Infrastructure\ElevatorCaseFlow.Infrastructure.csproj" />
   </ItemGroup>
